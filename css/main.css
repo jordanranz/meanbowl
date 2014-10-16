@@ -4,16 +4,19 @@ body {
 }
 
 .top-bar {
-	background: #FFF;
-	height:10px;
-	width:100%;
+	/* Might Remove this */
+	background: #000;
+	height: 0px;
+	width: 100%;
 }
 
 .header-content {
 	display: block;
-	height: 250px;
+	height: 375px;
 	
-	background: #C9FFE5;
+	/*background: #C9FFD6;*/
+	background-size: 100%;
+	background-image: url('../img/bowl.jpg');
 
 	color: #FFF;
 	text-align: center;
@@ -24,6 +27,7 @@ body {
 .header-content h1 {
 	font-size: 100px;
 	height: 100%;
+	letter-spacing: -4px;
 }
 
 .header-content h1::before {
