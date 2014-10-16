@@ -1,12 +1,37 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-.block{
-    padding: 20px 0px;   
+/*--- General ---*/
+body {
+	padding: 0;
 }
 
+.top-bar {
+	background: #FFF;
+	height:10px;
+	width:100%;
+}
+
+.header-content {
+	display: block;
+	height: 250px;
+	
+	background: #C9FFE5;
+
+	color: #FFF;
+	text-align: center;
+	font-family: 'Comfortaa', sans-serif;
+	padding: 40px;
+}
+
+.header-content h1 {
+	font-size: 100px;
+	height: 100%;
+}
+
+.header-content h1::before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
 
 
 
